@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 #span1{
@@ -8,4 +9,36 @@ body{
 
 .heading{
     font-size: 40px;
+}
+
+.container{
+    display: flex;
+    background-image: url("photos/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half_width{
+    width: 50%;
+    padding-left: 40px;
+}
+
+.half_width img
+{
+    width: 80%;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+.half_width p{
+    text-align: justify;
+
+}
+
+#link1{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(238, 147, 162),rgb(149, 181, 192),rgb(212, 104, 212) );
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-weight: bolder;
+
 }
