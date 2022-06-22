@@ -7,6 +7,10 @@ body{
     color: lightcoral;
 }
 
+#span2{
+    color: cornflowerblue;
+}
+
 .heading{
     font-size: 40px;
 }
@@ -18,8 +22,8 @@ body{
 }
 
 .half_width{
-    width: 50%;
-    padding-left: 40px;
+    width:50%;
+    padding-left: 40px;   
 }
 
 .half_width img
@@ -29,8 +33,16 @@ body{
     padding-top: 20px;
     
 }
+.heading1{
+    font-size: 40px;
+    color :rgb(212, 104, 212);
+}
+.heading2{
+    color: lightskyblue;
+}
 .half_width p{
     text-align: justify;
+    padding-right:40 ;
 
 }
 
@@ -41,4 +53,91 @@ body{
     border-radius: 6px;
     font-weight: bolder;
 
+}
+
+.container1{
+    display: flex;
+    background-image: url(photos/dream-bg.png);
+    background-position: top right;
+    height: 50vh;
+    background-repeat : no-repeat;
+    background-size : contain;
+      
+}
+
+.half_width1{
+    width:50%;
+    padding-left: 40px;
+
+}
+.half_width1 img
+{
+    width: 80%;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+
+.half_width1 p{
+    text-align: justify;
+    padding-right: 80px;
+}
+#link2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(238, 147, 162),rgb(149, 181, 192),rgb(212, 104, 212) );
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-weight: bolder;
+
+}
+.heading3{
+font-size: 40px;
+color: rgb(201, 67, 67);
+}
+
+.container3
+{   
+    display: flex;
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+
+.works{
+    width:50%;
+    padding-left: 40px;
+}
+
+.heading4{
+    font-size: 40px;
+    color: olive;
+    }
+
+.heading5{
+     font-size: 40px;
+    color: olive;
+    }
+.works1 p{
+    text-align:justify;
+    padding: 40px,80px;
+}
+.works2 p{
+    text-align:justify;
+    padding: 40px,80px;
+}
+
+.works1
+{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightskyblue,lightpink);
+    border-image-slice: 7;
+ 
+}
+.works2
+{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightskyblue,lightpink);
+    border-image-slice: 7;
+    
 }
